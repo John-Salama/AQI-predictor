@@ -100,4 +100,4 @@ def addHour(datetime_str):
     return new_datetime_str.split(',')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
