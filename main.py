@@ -12,10 +12,10 @@ app = Flask(__name__)
 model = tf.keras.models.load_model('FinalISA (2).h5')
 
 # Load the mean and standard deviation for AQI and PM2.5
-aqi_mean = 100.0
-aqi_std = 50.0
-pm25_mean = 50.0
-pm25_std = 25.0
+pm25_mean= 53.906898011002966
+pm25_std= 34.07538895084159
+aqi_mean= 126.82352941176471
+aqi_std= 38.15992365823657
 
 @app.route('/', methods=['POST'])
 # Define the function to get the next 12 predictions
