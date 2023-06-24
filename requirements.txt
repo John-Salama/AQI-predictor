@@ -2,5 +2,3 @@ flask
 tensorflow
 pandas
 numpy
-json
-csv
